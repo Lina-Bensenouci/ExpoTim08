@@ -1,8 +1,16 @@
+@font-face {
+  font-family: "Titre";
+  src: url(../ExpoTim08/Fonts/DARKLINOS.ttf);
+
+  font-family: "Paragraphe";
+  src: url(../ExpoTim08/Fonts/Exo2-VariableFont_wght.ttf);
+}
+
 /*Variable des polices*/
 :root {
-  --title-font: ; /*La police des titres*/
+  --title-font: "Titre", sans-serif; /*La police des titres*/
 
-  --general-font: ; /*La police du texte général*/
+  --general-font: "Paragraphe", sans-serif; /*La police du texte général*/
 
 
 }
@@ -34,7 +42,7 @@
 
   --nav-burger-text-color: white; /*Couleur du texte de la navigation lorsque que le menu burger est ouvert*/
 
-  --nav-hover-color: ; /*Couleur du texte de la navigation lorsqu'on hover*/
+  --nav-hover-size: 2em ; /*Couleur du texte de la navigation lorsqu'on hover*/
 
   --nav--burger-hover-color: ; /*Couleur du texte de la navigation burger lorsqu'on hover*/
 }
@@ -49,21 +57,20 @@
 
   --carrousel-text-bouton-color: black; /*La couleur du texte des boutons du carrousel*/
 
-  --carrousel-hover-bouton-color: ; /*La couleur du hover des boutons du carrousel*/
 
 }
 
 /*Variables des assets couleurs de chaque catégorie du site*/
 :root {
-  --bouton-projet-arcade-color: purple; /*Couleur du bouton pour la catégorie arcade*/
+  --bouton-projet-arcade-color: rgb(221,174,255); /*Couleur du bouton pour la catégorie arcade*/
 
-  --bouton-projet-jt-color: green;  /*Couleur du bouton pour la catégorie jour de la terre*/
+  --bouton-projet-jt-color: rgb(206,247,204);  /*Couleur du bouton pour la catégorie jour de la terre*/
 
   --bouton-projet-finissant-color: rgb(218, 200, 101);  /*Couleur du bouton pour la catégorie des finissants*/
 
-  --sous-titre-arcade-color: purple; /*Couleur du sous-titre pour la catégorie arcade*/
+  --sous-titre-arcade-color: rgb(221,174,255); /*Couleur du sous-titre pour la catégorie arcade*/
 
-  --sous-titre-jt-color: green; /*Couleur du sous-titre pour la catégorie jour de la terre*/
+  --sous-titre-jt-color: rgb(206,247,204); /*Couleur du sous-titre pour la catégorie jour de la terre*/
 
   --sous-titre-finissant-color: rgb(218, 200, 101); /*Couleur du sous-titre pour la catégorie finissants*/
 }
