@@ -44,14 +44,14 @@
 
   --nav-hover-size: 2em ; /*Couleur du texte de la navigation lorsqu'on hover*/
 
-  --nav--burger-hover-color: ; /*Couleur du texte de la navigation burger lorsqu'on hover*/
+  --nav--burger-hover-color: rgb(122, 50, 122); /*Couleur du texte de la navigation burger lorsqu'on hover*/
 }
 
 /*Variables couleurs du carrousel de la page d'accueil*/
 :root {
-  --carrousel-titre-color: ; /*La couleur du titre du carrousel*/
+  --carrousel-titre-color: white; /*La couleur du titre du carrousel*/
 
-  --carrousel-text-color: ; /*La couleur du texte du carrousel*/
+  --carrousel-text-color: black; /*La couleur du texte du carrousel*/
 
   --carrousel-bouton-background-color: white; /*La couleur des boutons du carrousel*/
 
